@@ -1,0 +1,2065 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>紫水家コラボカフェ</title>
+    <script>
+            (function(d) {
+              var config = {
+                kitId: 'xeu6bne',
+                scriptTimeout: 3000,
+                async: true
+              },
+              h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+            })(document);
+          </script>
+
+
+    <style>
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+:root{
+    --max-width: min(1280px,100vw);
+    --header-width: min(1280px,100vw);
+}
+
+h1{
+    font-family: "fot-tsukuaoldmin-pr6n", sans-serif;
+font-weight: 300;
+font-style: normal;
+}
+
+h2{
+    font-family: "fot-tsukuaoldmin-pr6n", sans-serif;
+font-weight: 300;
+font-style: normal;
+
+    position: relative;
+    z-index: 10;
+
+}
+h3{
+    font-family: "fot-tsukuaoldmin-pr6n", sans-serif;
+font-weight: 300;
+font-style: normal;
+line-height: 1.05;
+}
+
+p{
+    font-family: "fot-tsukuaoldmin-pr6n", sans-serif;
+font-weight: 300;
+font-style: normal;
+line-height: 1.05;
+}
+
+dd{
+    line-height: 1.5;
+}
+
+a{
+    font-family: "fot-tsukuaoldmin-pr6n", sans-serif;
+font-weight: 300;
+font-style: normal;
+line-height: 1.05;
+}
+
+main{
+    width: min(1280px,100vw);
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+        *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    li{
+      list-style: none;
+    }
+    img{
+      width: 100%;
+      height: auto;
+      vertical-align: bottom;
+    }
+
+    svg{
+        width: 100%;
+    }
+
+    
+    body{
+            background-image: url(images/background.webp);
+            background-repeat: repeat-y;
+            background-size: 100%;
+
+            
+        }
+
+
+    .top_hako{
+        background-size: 200%;
+    }
+
+
+      .ham{
+        position: fixed;
+        top: 4vw;
+        right: 0vw;
+        width: max(44px,20vw);
+        z-index: 100;
+    }
+
+    .ham_back{
+        position: absolute;
+        top: -10vw;
+        right: -2vw;
+        width: 120%;
+        height: auto;
+    }
+
+    .san{
+        position: relative;
+        bottom: 0px;
+        width: 40% !important;
+        z-index: 90;
+        left: 5.5vw;
+    }
+
+header{
+    position: fixed;
+    z-index: 100;
+    background-image: url(images/haikei_ue.webp);
+    background-size: 100% 150px;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    padding: 0 calc((100vw - 1160px)/2);
+
+    visibility: hidden;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.engawa{
+   display: none;
+
+}
+
+
+
+    .haikei_ajisai{
+        position: relative;
+        height: 80%;
+    }
+
+
+    .hai_aji_1{
+        position: absolute;
+        margin-top: -3%;
+        margin-left: -3%;
+        width: 25%;
+        height: auto;
+    }
+
+    .hai_aji_2{
+        position: absolute;
+        right: 0;
+        width: 25%;
+        height: auto;
+    }
+
+    .hai_aji_3{
+        position: absolute;
+        bottom: 0;
+        margin-left: -5%;
+        width: 35%;
+        height: auto;
+        z-index: 6;
+    }
+
+    .hai_aji_4{
+        position: absolute;
+        bottom:0;
+        right: -2%;
+        width: 25%;
+        height: auto;
+        z-index: 6;
+    }
+
+   .top{
+    height: min(1920px,150vw);
+    background-image: url(images/engawa.webp);
+    background-size: cover;
+
+    position: relative;
+    width: var(--max-width);
+    margin: 0 auto;
+}
+
+
+    
+
+   .stand{
+       margin-top:calc(var( --header-width) * -1.2);
+    width: var( --header-width);
+    height: 100%;
+    position: absolute;
+
+    
+}
+
+    .stand_1{
+        position: absolute;
+        width: 68%;
+        height: auto!important;
+        transform: translateX(-50%);
+        left: calc(50% - 38%);
+         /* background-color: aqua;  */
+    }
+
+    .stand_2{
+        position: absolute;
+        width: 68%;
+        height: auto!important;
+        transform: translateX(-50%);
+        left: calc(50% - 14%);
+         /* background-color: aqua;  */
+
+         top: min(10%,116px);
+
+         z-index: 5;
+    }
+
+    .stand_3{
+        position: absolute;
+        width: 68%;
+        height: auto!important;
+        transform: translateX(-50%);
+        left: calc(50% + 14%);
+         /* background-color: aqua;  */
+
+         top: min(10%,116px);
+
+         z-index: 5;
+         }
+
+    .stand_4{
+        position: absolute;
+        width: 68%;
+        height: auto!important;
+        transform: translateX(-50%);
+        left: calc(50% + 30%);
+         /* background-color: aqua;  */
+    }
+
+
+    .shokai h1{
+      position: absolute;
+      top: 5%;
+      z-index: 20;
+      width: 80%;
+      transform: translateX(-50%);
+      left: 50%;
+    }
+
+.shokai h1{
+    max-width: 750px;
+}
+
+
+   .shokai {
+    position: relative; 
+    width: var(--max-width);
+    margin-top: calc(var( --header-width) * -0.7);
+    z-index: 15;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+.haikei_shokai {
+    display: block; 
+    width: var(--max-width); 
+    height: auto;   
+}
+
+.haikei_shokai_pc{
+    display: none;
+}
+
+
+.shokai_honbun {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.shokai_1{
+    display:flex;
+    flex-wrap:wrap;
+    width:70%;
+    margin: 0 auto;
+}
+
+.shokai_1 div{
+    position: relative;
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 10%;
+    /* background-color: black; */
+    display: flex;
+    
+}
+
+.side1 {
+    height:min(704px,55vw);
+    width: auto;
+    /* background-color: bisque; */
+}
+
+.side2 {
+    height:min(704px,55vw);
+    width: auto;
+    /* background-color: bisque; */
+
+}
+
+.shokai p {
+    color: white;
+    writing-mode: vertical-rl;
+    height:min(638px,55vw);
+    font-size: 4vw;
+}
+
+.p1{
+    width: 50%;
+    justify-content: right;
+}
+
+.p2
+{
+    width: 50%
+}
+
+    h2{
+        color: #1C08CE;
+        text-align: center;
+  width: 70%;
+  margin: 20% auto 15%;
+  font-size:max(5vw,30px);
+  border-top:2px dashed #1C08CE;
+  border-bottom:2px dashed #1C08CE;
+ 
+    }
+
+    h3{
+        color:  white;
+        font-size: 7vw;
+    }
+
+    .menu{
+        margin: 15% auto;
+        transition-duration: 0.3s;
+    }
+
+    .menu p{
+        color:  white;
+    }
+
+
+
+.menu_ajisai_hako{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.Left .menu_ajisai{
+
+    width: 75%;
+    margin-left: 35%;
+}
+
+.Right .menu_ajisai{
+    width: 75%;
+    margin-left: -10%;
+}
+
+.mini{
+    width: 30%;
+    position: absolute;
+    margin-top: 20%
+}
+
+.food_text {
+    position: absolute;
+    text-shadow: 0px 0px 20px black;
+
+}
+
+.food_text p{
+
+    width: max(150px,35%);
+    margin-top: 2%;
+    font-size: max(2vw,12px);
+}
+
+.Left .food_text p{
+    margin-left: auto;
+    margin-right: 0;
+}
+
+
+.Left .food_text{
+    margin-top: 6%;
+    right: 14%;
+    text-align: right;
+}
+
+.Right .food_text{
+    margin-top: 6%;
+    left: 12%;
+}
+
+.Left .mini{
+    left: 22%;
+}
+
+.Right .mini{
+    right: 22%;
+}
+
+.Right .food{
+    right: 0;
+}
+
+
+
+.collab .about_chara{
+    font-size: 3vw;
+    position: relative;
+    border-radius: 30vw;
+    display:block;
+    width: fit-content;
+    padding: 3% 6%;
+    box-sizing: border-box;
+    background: #1C08CE;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    margin-top: -5%;
+    box-shadow: 0px 0px 3px black;
+}
+
+.collab .Left .about_chara{
+    margin-left: auto;
+     margin-right: 8%;
+    } 
+
+.collab .Right .about_chara{
+    margin-left: 8%;
+     margin-right: auto;
+    } 
+
+
+
+
+
+.food{
+    position: absolute;
+    width: 40%;
+}
+
+.normal h2{
+    margin-top:3.5%;
+    
+    position: relative;
+    z-index: 10;
+}
+
+.normal .middle{
+    color: #1C08CE;
+    padding-top:15%;
+
+}
+
+
+.normal{
+    text-align: center;
+    background-image: url(images/haikei_normal.webp);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+
+    height:calc(var(--max-width) * 1.6);
+    
+  position: relative;
+}
+
+
+.normal a{
+    margin-top: 60%;
+
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    text-decoration: none;
+
+    font-size: 7vw
+}
+
+.normal a img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    width: 180%;
+
+    transform: translate(-50%, -50%);
+    z-index: 9;
+}
+
+.normal a span{
+    position: relative;
+    z-index: 10;
+}
+
+.normal .small{
+    margin-top: 7%;
+    color: #1C08CE;
+
+}
+
+.normal p{
+    font-size: max(4vw,13px);
+}
+
+.normal_menu div{
+    position: absolute;
+    width: 40%;
+    z-index: 0;
+}
+
+.n_food1{
+   top: 50%;
+   width: 40%;
+   
+}
+
+.n_food2{
+   top: 15%;
+   left: -5%;
+   width: 40%;
+   rotate: -5deg;
+}
+
+.n_food3{
+   top: 40%;
+   right: -10%;
+   width: 60% !important;
+   z-index: 1 !important;
+}
+
+.n_food4{
+   top: 30%;
+   width: 40%;
+   rotate: 5deg;
+}
+
+.n_food5{
+   top: 15%;
+   right: -10%;
+   width: 40%;
+}
+
+.n_food6{
+   top: 30%;
+   right: 0;
+   width: 52%;
+   rotate: -15deg;
+}
+
+
+
+
+
+
+
+.goods{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.goods p{
+    color: white;
+    font-size: 4vw;
+}
+
+.goods h3{
+    text-align: center;
+    font-size: 4vw;
+}
+
+.goods ul{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    
+}
+
+
+.acrylic h3{
+    margin-top: 2%;
+}
+
+.acrylic ul{
+    margin: 3% auto;
+    width: 105%;
+    transform: translateX(-2%);
+}
+
+.umbrella h3{
+    margin-top: 2%;
+}
+
+.umbrella ul{
+    margin: 3% auto;
+}
+
+.umbrella img{
+    width: 90%;
+}
+
+
+.can h3{
+    margin-top: 5%;
+    
+}
+
+.can ul{
+    margin: 7% 0;
+    width: 100%;
+}
+
+.can ul li{
+    width: fit-content;
+    justify-content: space-between;
+}
+
+.can ul li img{
+    width: 90%;
+
+}
+
+.goods .small{
+    margin: 5%;
+}
+
+.acrylic{
+    padding: 7%;
+    width: calc(var(--max-width) * 0.9);
+    height: calc(var(--max-width) * 0.65);
+    justify-content: center;
+    background-image: url(images/haikei_goods1.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: auto;
+    }
+
+.umbrella{
+    padding: 7%;
+    width: calc(var(--max-width) * 0.9);
+    height: calc(var(--max-width) * 0.66);
+    justify-content: center;
+    background-image: url(images/haikei_goods2.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: auto;
+    }
+
+.can{
+    padding: 7%;
+    width: calc(var(--max-width) * 0.9);
+    height: calc(var(--max-width) * 0.58);
+    justify-content: space-between;
+    background-image: url(images/haikei_goods3.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: auto;
+    
+}
+
+.access{
+    margin-top: 30%;
+    padding: 12%;
+    padding-top:min(300px,12%);
+    width:calc(var(--max-width) * 0.85);
+    margin: 0 auto;
+    height: calc(var(--max-width) * 1.05);
+    background-image: url(images/haikei_access.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    text-align: center;
+
+    color:#515151;
+}
+
+.access h2{
+   margin: 0% auto !important;
+   border-style: none;
+   color:#515151
+
+}
+
+.access p{
+   text-align: left;
+   width: fit-content;
+   
+   
+   margin: 6% auto 0;
+
+   font-size: max(3vw,10px);
+}
+
+
+footer{
+    background-image: url(images/haikei_footer.webp);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            height:55vw;
+        
+}
+
+.footer_ko{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+
+footer h1{
+    width: 40vw;
+    margin: 8vw auto 0;
+}
+
+footer .icon a{
+    width:25vw;
+    background: url(images/haikei_footer_logo.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+    padding: 8vw;
+    padding-top: 5.5vw;
+}
+
+footer .icon{
+    display: flex;
+    width: fit-content;
+}
+
+footer p{
+    color: white;
+    font-size: 2vw;
+}
+
+/* ーーーーーーーーーーーーーーメディアクエリーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+/* ーーーーーーーーーーーーーーメディアクエリーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+/* ーーーーーーーーーーーーーーメディアクエリーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+/* ーーーーーーーーーーーーーーメディアクエリーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+/* ーーーーーーーーーーーーーーメディアクエリーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+/* ーーーーーーーーーーーーーーメディアクエリーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+/* ーーーーーーーーーーーーーーメディアクエリーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+/* ーーーーーーーーーーーーーーメディアクエリーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+/* ーーーーーーーーーーーーーーメディアクエリーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+/* ーーーーーーーーーーーーーーメディアクエリーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+
+
+@media screen and (min-width:1280px){
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header{
+    visibility: visible;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.ham{
+    visibility: hidden;
+}
+
+main{
+    width: 1280px;
+    
+    overflow-x: visible ;
+}
+
+h2{
+    font-size: 51px;
+    margin-bottom: 100px;
+    margin-top: 10%;
+}
+
+
+
+.top{
+    background-image:none;
+    background-size: max(1800px,100vw);
+    width:100%;
+    left: 50%;
+    transform: translateX(-50%);
+   
+}
+
+
+.stand{
+    right: calc((100% - 1280px)/2);
+    left: 0;
+}
+
+
+.stand img{
+    width: 550px;
+    padding-top:100px;
+}
+
+.stand{
+    
+    right:calc((100vw - 1280px)/2);
+}
+
+.shokai_1 {
+
+    
+    flex-wrap: wrap;
+    margin: 150px auto 0;
+    font-size: 30px;
+    display: block;
+    width: 646px;
+
+}
+
+.side1 {
+    display: none;
+    }
+
+.p1 {
+    height: fit-content;
+width: 100%
+}
+
+.p2 {
+     height: fit-content;
+    width: 100%
+    }
+
+.side2 {
+    display: none;
+    }
+
+
+.shokai p{
+    writing-mode: horizontal-tb;
+    height: fit-content;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+.haikei_shokai{
+    display: none;
+}
+
+.shokai{
+    position:relative;
+    height:1124px;
+    margin-top: -1000px;
+}
+
+
+.haikei_shokai_pc{
+    display:block;
+    position:absolute;
+    height:1124px;
+    width:100vw;
+    left:50%;
+    transform:translateX(-50%);
+    z-index: -1;
+}
+
+.collab{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+h3{
+        color:  white;
+        font-size: 40px;
+    }
+
+    .menu{
+        margin: 0%;
+        width: 45%;
+        position:relative;
+      
+    }
+
+    .menu p{
+        color:  white;
+    }
+
+.menu:hover{
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+
+.PC_Left_1{
+    
+    transform-origin: bottom right;
+}
+
+.PC_Right_1{
+    
+    transform-origin: bottom left;
+}
+
+
+.PC_Left_2{
+    
+    transform-origin: top right;
+}
+
+.PC_Right_2{
+    
+    transform-origin: top left;
+}
+
+.mini{
+    opacity: 0;
+    transition-duration: 0.3s;
+}
+
+
+
+
+.menu:hover .mini{
+    transition-duration: 0.3s;
+    
+    opacity: 1;
+    
+}
+
+.menu.Left:hover  .mini{
+    transition-duration: 0.3s;
+    transform: translateX(-30px);
+}
+
+.menu.Right:hover .mini{
+    transition-duration: 0.3s;
+    transform: translateX(30px);
+}
+
+.menu.Left:hover  .food{
+    transition-duration: 0.3s;
+    transform: translateX(-50px);
+}
+
+.menu.Right:hover .food{
+    transition-duration: 0.3s;
+    transform: translateX(50px);
+}
+
+.menu  p{
+    opacity: 0;
+    transition-duration: 0.3s;
+}
+
+.menu:hover p{
+    opacity: 1;
+    transition-duration: 0.3s;
+}
+
+.menu h3{
+    transform: translateY(70px);
+    transition-duration: 0.3s;
+}
+
+.menu:hover h3{
+    transform: translateY(0px);
+    transition-duration: 0.3s;
+}
+
+
+.menu_ajisai_hako{
+    width: 50%;
+    margin: 0;
+}
+
+.Left .menu_ajisai_hako{
+    margin-left: auto;
+
+    margin-right: 10%;
+}
+
+.Left .menu_ajisai{
+    margin-left: 0;
+    
+    width: 120%;
+    transition-duration: 0.3s;
+
+    
+}
+
+.Left_1{
+    transform: scale(-1, 1);
+}
+
+.Right_1{
+    transform: scale(-1, 1);
+    z-index: -1;
+}
+
+
+.Right .menu_ajisai{
+    width: 120%;
+    margin-left: 0%;
+    transition-duration: 0.3s;
+}
+
+.mini{
+    width: 30%;
+    position: absolute;
+    margin-top: 20%;
+    z-index: 3;
+}
+
+.food_text {
+    width: 50%;
+    position: absolute;
+    text-shadow: 0px 0px 20px black;
+    z-index: 2;
+
+}
+
+.food_text p{
+
+    width: 60%;
+    margin-top: 2%;
+    font-size: 120%;
+}
+
+.Left .food_text p{
+    margin-left: auto;
+    margin-right: 0;
+}
+
+
+.Left .food_text{
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: 0;
+    text-align: right;
+}
+
+.Right .food_text{
+    margin-top: 10%;
+    left: 12%;
+}
+
+.Left .mini{
+   left: 30%;
+}
+
+.Right .mini{
+    right: 30%;
+}
+
+.Left .food{
+    transition-duration: 0.3s;
+    Left: 10%;
+}
+
+.Right .food{
+    transition-duration: 0.3s;
+    right: 10%;
+}
+
+.food{
+    z-index: 2;
+}
+
+
+.collab .about_chara{
+    font-size: 1vw;
+    position: relative;
+    border-radius: 30vw;
+    display:block;
+    width: fit-content;
+    padding: 3% 6%;
+    box-sizing: border-box;
+    background: #1C08CE;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    margin-top: -5%;
+    box-shadow: 0px 0px 3px black;
+}
+
+.collab .Left .about_chara{
+    margin-left: 0;
+     margin-right: 0;
+     display: none;
+    } 
+
+.collab .Right .about_chara{
+    margin-left: 0;
+     margin-right: 0;
+     display: none;
+    } 
+
+
+
+.collab{
+    margin-bottom:200px;
+}
+
+
+.normal{
+    background-image: url(images/haikei_normal_pc.webp);
+    background-size: 100% 1553px;
+    background-repeat: no-repeat;
+
+    height: 1553px;
+}
+
+.normal_ko{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+
+.normal_menu{
+    position: relative;
+    width: 840px;
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 0 auto;
+}
+
+.normal_menu div{
+    width: fit-content;
+    background-image: url(images/haikei_n_food.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: -20px;
+
+    padding-bottom: 30px;
+}
+
+.normal a{
+    margin-top: 13%;
+
+    color: white;
+    text-decoration: none;
+
+    font-size: 40px
+}
+
+.normal a img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    width: 470px;
+
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+
+.normal a span{
+    position: relative;
+    z-index: 1;
+}
+
+.normal .small{
+    font-size: 24px;
+    margin-top: 50px;
+}
+
+.normal .middle{
+    font-size: 40px;
+}
+
+
+.normal_menu img{
+    width: 270px;
+}
+
+.normal{
+    width:100vw;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+.n_food1{
+   top: 0%;
+   width: 270px !important;
+   rotate: 0deg !important;
+}
+
+.n_food2{
+    top: 0%;
+   left: 0;
+}
+
+.n_food3{
+    top: 0%;
+   left: 0;
+   right: auto;
+   width: 270px !important;
+   rotate: 0deg !important;
+}
+
+.n_food4{
+    top: 0%;
+    width: 270px !important;
+   rotate: 0deg !important;
+}
+
+.n_food5{
+    top: 0%;
+    left: 0;
+   right: auto;
+}
+
+.n_food6{
+    top: 0%;
+   left: 0;
+   right: auto;
+   width: 270px !important;
+   rotate: 0deg !important;
+}
+
+
+.umbrella{
+    padding: 7%;
+    padding-top: 5%;
+    width: 45%;
+    height: 25%;
+    margin: 0;
+    }
+
+.goods p{
+    font-size: 30px;   
+}
+
+.umbrella h3{
+    font-size: 30px;   
+}
+
+.can{
+    padding: 7%;
+    width: 45%;
+    height: 25%;
+    margin: 0;
+    font-size: 30px;  
+
+    margin:auto 0;
+    
+}
+
+.can h3{
+    font-size: 30px;   
+    margin-top: 0%;
+}
+
+.goods{
+    margin-bottom: 50px;
+}
+
+.goods_hako{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+
+.access{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 12%;
+    padding-top:8%;
+    width:100%;
+    height: 60%;
+    background-image: url(images/background_access_pc.webp);
+}
+
+.access img{
+    width: 50%;
+}
+.access p{
+    width: 50%;
+    margin: 0;
+    font-size: 24px;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.access_hako {
+    padding-top: 3%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.normal_menu div{
+    position: relative;
+}
+
+
+.engawa{
+    display:block;
+    position: absolute;
+    width: 100%;
+    height: 1800px;
+    overflow: hidden;
+}
+
+.engawa img{
+height: 100%;
+width: auto;
+}
+
+
+
+footer{
+            height:400px;
+
+            
+        
+}
+
+
+
+
+.X{
+    color: #1C08CE;
+}
+footer{
+        height:400px;
+        width: auto;
+        background-size: 100% 500px;
+    }
+
+    .footer_pc{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        gap:40px;
+
+        width: 1280px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    footer h1{
+        width: 30%;
+        margin:8% 0 0;
+        
+    }
+
+    footer .icon{
+        width:400px;
+        height: 150px;
+        margin-top: 6%;
+    }
+
+    footer .icon a{
+    background: url(images/haikei_footer_logo.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+        width:50%;
+        padding:15%;
+        padding-top:10%;
+    }
+
+    footer p{
+        color: white;
+        font-size:30px;
+        text-align:center;
+    }
+
+.ham_ham_ham{
+    display: none;
+}
+
+}
+
+.ham_ham_ham{
+    position: fixed;
+    width: 100vw;
+    height: 90vh;
+    background-image: url(images/haikei_ham_ham.webp);
+   background-size: 100vw 90vh;
+   background-repeat: no-repeat;
+   z-index: 1900;
+   transform: translateY(-120vh);
+
+    transition:transform .5s ease;
+}
+
+.ham_ham{
+    position: fixed;
+    top:25% ;
+    z-index: 2000;
+    justify-content: center;
+    width: 40vw;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    text-align: center;
+   left: calc(50% - 40vw/2);
+  
+}
+
+.ham_ham a{
+    margin-top: 20%;
+    text-decoration: none;
+     color: white;
+     font-size: 5vw;
+}
+
+.ham_ham p{
+    margin-top: 20%;
+    text-decoration: none;
+     color: white;
+     font-size: 3vw;
+}
+
+#ham_check{
+    display:none;
+}
+
+#ham_check:checked ~ .ham_ham_ham{
+    transform:translateY(0);
+}
+
+.ham_ham_ham .batu{
+    position: absolute;
+    z-index: 1000;
+    display: none;
+
+     bottom: 0px;
+
+        top: 2.5vw;
+        right: 0vw;
+        width: max(44px,20vw);
+}
+
+#ham_check:checked + .ham .san{
+    display:none;
+}
+
+#ham_check:checked ~ .ham_ham_ham .batu{
+    display:block;
+}
+
+
+
+#chara_check{
+    display: none;
+}
+
+#chara_check:checked ~ .chara{
+    transition: .5s ease;
+    opacity: 1;
+    pointer-events:auto;
+}
+
+#chara_check_2{
+    display: none;
+}
+
+#chara_check_2:checked ~ .chara{
+    transition: .5s ease;
+    opacity: 1;
+    pointer-events:auto;
+}
+
+#chara_check_3{
+    display: none;
+}
+
+#chara_check_3:checked ~ .chara{
+    transition: .5s ease;
+    opacity: 1;
+    pointer-events:auto;
+}
+
+#chara_check_4{
+    display: none;
+}
+
+#chara_check_4:checked ~ .chara{
+    transition: .5s ease;
+    opacity: 1;
+    pointer-events:auto;
+}
+
+.chara{
+    transition: .5s ease;
+    opacity: 0;
+    pointer-events:none;
+    position:fixed;
+    background-color: #1C08CE;   
+    width: min(80vw, calc(1280px * 0.8));
+    height: fit-content;
+    top: 0;
+    z-index: 1000;
+
+    color: white;
+
+    top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+display: flex;
+
+border-radius: min(3vw,calc(1280px * 0.03));
+
+ font-size: min(2vw,calc(1280px * 0.02));
+
+}
+
+.chara_tatie{
+    height: auto;
+    width: min(35vw,calc(1280px * 0.35));
+    margin: min(5vw,calc(1280px * 0.05)) min(2vw,calc(1280px * 0.02));
+}
+
+.chara_jouhou{
+
+    font-family: "fot-tsukuaoldmin-pr6n", sans-serif;
+font-weight: 300;
+font-style: normal;
+
+
+    margin-top: min(10vw,calc(1280px * 0.1));
+
+    width: 35vw;
+}
+
+.chara_name{
+    font-size: min(4vw,calc(1280px * 0.04));
+}
+
+.chara_jouhou dd{
+    margin-top: min(2vw,calc(1280px * 0.02));
+   
+}
+
+.chara .batu{
+    position: absolute;
+    width: min(15vw,calc(1280px * 0.15),44px);
+    top: min(2vw,calc(1280px * 0.02));
+    right: min(2vw,calc(1280px * 0.02));
+    }
+
+    </style>
+</head>
+<body>
+
+    <header>
+            <a href="#collab">コラボメニュー</a>
+            <a href="#normal">通常メニュー</a>
+            <a href="#goods">グッズ情報</a>
+            <a href="#access">アクセス</a>
+
+    </header>
+<div class="engawa"><img src="images/engawa.webp" alt="engawa"></div>
+    <main>
+            <input type="checkbox" id="ham_check">
+        <label for="ham_check" class="ham">
+        <p class="ham_back"><img src="images/humberger.webp"></p>
+        <svg class="san"  viewBox="0 0 82 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 4H78" stroke="white" stroke-width="8" stroke-linecap="square"/>
+            <path d="M4 32H78" stroke="white" stroke-width="8" stroke-linecap="square"/>
+            <path d="M4 58H78" stroke="white" stroke-width="8" stroke-linecap="square"/>
+            </svg>
+
+
+           
+                
+            
+    </div>
+</label>
+
+
+    <div class="ham_ham_ham">
+            <label for="ham_check" class="batu">
+                    <svg class="san batu" viewBox="0 0 82 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.65686 57.9828L57.9828 5.65689" stroke="white" stroke-width="8" stroke-linecap="square"/>
+                        <path d="M5.81982 5.81982L58.1457 58.1457" stroke="white" stroke-width="8" stroke-linecap="square"/>
+                        </svg>
+                </label>
+    <div class="ham_ham">
+        
+            <a href="#collab">コラボメニュー</a>
+               <a href="#normal">通常メニュー</a>
+               <a href="#goods">グッズ情報</a>
+               <a href="#access">アクセス</a>
+
+               <p>押したあとも出たままなので<br>右上のバツを押してください<br>ごめん</p>
+        </div>
+    </div>
+
+
+   <div class="top_hako">
+    <div class="top">
+
+            <div class="haikei_ajisai">
+                    <svg class="hai_aji_1" width="245" height="245" viewBox="0 0 245 245" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_g_59_307)">
+                        <path d="M117.758 138.376C120.219 129.45 129.45 124.209 138.376 126.67L167.977 134.831C193.815 141.954 208.986 168.675 201.863 194.513L193.701 224.114C191.241 233.04 182.01 238.281 173.084 235.82L143.483 227.659C117.644 220.536 102.473 193.815 109.597 167.977L117.758 138.376Z" fill="url(#paint0_radial_59_307)"/>
+                        <path d="M50.7261 20.3132C53.187 11.3873 62.4178 6.14635 71.3436 8.60721L100.945 16.7683C126.783 23.8919 141.954 50.6126 134.831 76.4506L126.67 106.052C124.209 114.978 114.978 120.219 106.052 117.758L76.4506 109.597C50.6126 102.473 35.4415 75.7527 42.565 49.9146L50.7261 20.3132Z" fill="url(#paint1_radial_59_307)"/>
+                        <path d="M126.67 106.052C124.209 114.978 129.45 124.209 138.376 126.67L167.977 134.831C193.815 141.954 220.536 126.783 227.659 100.945L235.82 71.3436C238.281 62.4178 233.04 53.187 224.114 50.7261L194.513 42.565C168.675 35.4415 141.954 50.6126 134.831 76.4506L126.67 106.052Z" fill="url(#paint2_radial_59_307)"/>
+                        <path d="M8.60722 173.084C6.14635 182.01 11.3873 191.241 20.3132 193.701L49.9146 201.863C75.7527 208.986 102.473 193.815 109.597 167.977L117.758 138.376C120.219 129.45 114.978 120.219 106.052 117.758L76.4506 109.597C50.6126 102.473 23.8919 117.644 16.7683 143.482L8.60722 173.084Z" fill="url(#paint3_radial_59_307)"/>
+                        </g>
+                        <defs>
+                        <filter id="filter0_g_59_307" x="0" y="0" width="244.428" height="244.428" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                        <feTurbulence type="fractalNoise" baseFrequency="0.83333331346511841 0.83333331346511841" numOctaves="3" seed="6660" />
+                        <feDisplacementMap in="shape" scale="16" xChannelSelector="R" yChannelSelector="G" result="displacedImage" width="100%" height="100%" />
+                        <feMerge result="effect1_texture_59_307">
+                        <feMergeNode in="displacedImage"/>
+                        </feMerge>
+                        </filter>
+                        <radialGradient id="paint0_radial_59_307" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(122.214 122.214) rotate(90.0693) scale(176.786)">
+                        <stop stop-color="#688BFF"/>
+                        <stop offset="1" stop-color="#FFB9EE"/>
+                        </radialGradient>
+                        <radialGradient id="paint1_radial_59_307" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(122.214 122.214) rotate(90.0693) scale(176.786)">
+                        <stop stop-color="#688BFF"/>
+                        <stop offset="1" stop-color="#FFB9EE"/>
+                        </radialGradient>
+                        <radialGradient id="paint2_radial_59_307" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(122.214 122.214) rotate(90.0693) scale(176.786)">
+                        <stop stop-color="#688BFF"/>
+                        <stop offset="1" stop-color="#FFB9EE"/>
+                        </radialGradient>
+                        <radialGradient id="paint3_radial_59_307" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(122.214 122.214) rotate(90.0693) scale(176.786)">
+                        <stop stop-color="#688BFF"/>
+                        <stop offset="1" stop-color="#FFB9EE"/>
+                        </radialGradient>
+                        </defs>
+                        </svg>
+                        
+                        <svg class="hai_aji_2"  width="280" height="290" viewBox="0 0 280 290" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g filter="url(#filter0_g_59_308)">
+                            <path d="M134.156 163.751C137.384 153.395 148.089 147.715 158.067 151.065L191.157 162.173C220.04 171.869 235.882 204.031 226.54 234.008L215.837 268.352C212.61 278.708 201.905 284.388 191.927 281.038L158.836 269.93C129.953 260.234 114.112 228.072 123.454 198.095L134.156 163.751Z" fill="#F9D3F1"/>
+                            <path d="M64.1632 21.6478C67.3904 11.292 78.0954 5.61221 88.0733 8.96174L121.164 20.07C150.047 29.766 165.888 61.9277 156.546 91.9052L145.844 126.249C142.616 136.605 131.911 142.285 121.933 138.935L88.843 127.827C59.9595 118.131 44.1182 85.9692 53.4603 55.9917L64.1632 21.6478Z" fill="#F9D3F1"/>
+                            <path d="M145.844 126.249C142.616 136.605 148.089 147.715 158.067 151.065L191.157 162.173C220.04 171.869 251.028 155.428 260.371 125.45L271.073 91.1064C274.301 80.7505 268.828 69.6401 258.85 66.2906L225.76 55.1823C196.876 45.4863 165.888 61.9277 156.546 91.9052L145.844 126.249Z" fill="#F9D3F1"/>
+                            <path d="M8.92664 198.894C5.69936 209.25 11.1718 220.36 21.1497 223.709L54.2402 234.818C83.1236 244.514 114.112 228.072 123.454 198.095L134.156 163.751C137.384 153.395 131.911 142.285 121.933 138.935L88.843 127.827C59.9595 118.131 28.9716 134.572 19.6295 164.55L8.92664 198.894Z" fill="#F9D3F1"/>
+                            </g>
+                            <defs>
+                            <filter id="filter0_g_59_308" x="0" y="0" width="280" height="290" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                            <feTurbulence type="fractalNoise" baseFrequency="0.83333331346511841 0.83333331346511841" numOctaves="3" seed="6660" />
+                            <feDisplacementMap in="shape" scale="16" xChannelSelector="R" yChannelSelector="G" result="displacedImage" width="100%" height="100%" />
+                            <feMerge result="effect1_texture_59_308">
+                            <feMergeNode in="displacedImage"/>
+                            </feMerge>
+                            </filter>
+                            </defs>
+                            </svg>
+                            
+                            
+                            
+                            <svg class="hai_aji_3" width="346" height="346" viewBox="0 0 346 346" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g filter="url(#filter0_g_59_309)">
+                                <path d="M178.656 197.03C175.532 183.759 183.759 170.468 197.03 167.344L241.043 156.983C279.46 147.941 317.935 171.753 326.978 210.171L337.338 254.183C340.462 267.455 332.235 280.746 318.964 283.87L274.951 294.23C236.534 303.273 198.059 279.46 189.016 241.043L178.656 197.03Z" fill="url(#paint0_radial_59_309)"/>
+                                <path d="M8.66231 91.8165C5.53838 78.545 13.7646 65.254 27.036 62.13L71.049 51.7699C109.466 42.7269 147.941 66.5396 156.983 104.957L167.344 148.97C170.468 162.241 162.241 175.532 148.97 178.656L104.957 189.016C66.5396 198.059 28.0654 174.247 19.0224 135.829L8.66231 91.8165Z" fill="url(#paint1_radial_59_309)"/>
+                                <path d="M167.344 148.97C170.468 162.241 183.759 170.468 197.03 167.344L241.043 156.983C279.46 147.941 303.273 109.466 294.23 71.049L283.87 27.036C280.746 13.7646 267.455 5.53838 254.184 8.66231L210.171 19.0224C171.753 28.0654 147.941 66.5396 156.983 104.957L167.344 148.97Z" fill="url(#paint2_radial_59_309)"/>
+                                <path d="M62.13 318.964C65.254 332.235 78.545 340.462 91.8165 337.338L135.829 326.978C174.247 317.935 198.059 279.46 189.016 241.043L178.656 197.03C175.532 183.759 162.241 175.532 148.97 178.656L104.957 189.016C66.5396 198.059 42.7269 236.534 51.7699 274.951L62.13 318.964Z" fill="url(#paint3_radial_59_309)"/>
+                                </g>
+                                <defs>
+                                <filter id="filter0_g_59_309" x="0" y="0" width="346" height="346" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                                <feTurbulence type="fractalNoise" baseFrequency="0.83333331346511841 0.83333331346511841" numOctaves="3" seed="6660" />
+                                <feDisplacementMap in="shape" scale="16" xChannelSelector="R" yChannelSelector="G" result="displacedImage" width="100%" height="100%" />
+                                <feMerge result="effect1_texture_59_309">
+                                <feMergeNode in="displacedImage"/>
+                                </feMerge>
+                                </filter>
+                                <radialGradient id="paint0_radial_59_309" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(173 173) rotate(80.3295) scale(226.215)">
+                                <stop offset="0.451923" stop-color="#F8ACFF"/>
+                                <stop offset="1" stop-color="#DAEAB5"/>
+                                </radialGradient>
+                                <radialGradient id="paint1_radial_59_309" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(173 173) rotate(80.3295) scale(226.215)">
+                                <stop offset="0.451923" stop-color="#F8ACFF"/>
+                                <stop offset="1" stop-color="#DAEAB5"/>
+                                </radialGradient>
+                                <radialGradient id="paint2_radial_59_309" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(173 173) rotate(80.3295) scale(226.215)">
+                                <stop offset="0.451923" stop-color="#F8ACFF"/>
+                                <stop offset="1" stop-color="#DAEAB5"/>
+                                </radialGradient>
+                                <radialGradient id="paint3_radial_59_309" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(173 173) rotate(80.3295) scale(226.215)">
+                                <stop offset="0.451923" stop-color="#F8ACFF"/>
+                                <stop offset="1" stop-color="#DAEAB5"/>
+                                </radialGradient>
+                                </defs>
+                                </svg>
+                                
+                                
+                                <svg class="hai_aji_4" width="250" height="250" viewBox="0 0 250 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g filter="url(#filter0_g_59_310)">
+                                    <path d="M119.384 140.495C122.234 131.685 131.685 126.853 140.495 129.703L169.71 139.152C195.212 147.4 209.198 174.76 200.95 200.261L191.5 229.477C188.651 238.286 179.199 243.118 170.39 240.269L141.174 230.819C115.673 222.571 101.686 195.212 109.935 169.71L119.384 140.495Z" fill="#C8E4FF"/>
+                                    <path d="M57.5867 19.61C60.4361 10.8004 69.8875 5.96875 78.6971 8.81813L107.913 18.2677C133.414 26.5159 147.4 53.8753 139.152 79.3766L129.703 108.592C126.853 117.402 117.402 122.234 108.592 119.384L79.3766 109.935C53.8753 101.686 39.8889 74.327 48.1371 48.8257L57.5867 19.61Z" fill="#C8E4FF"/>
+                                    <path d="M129.703 108.592C126.853 117.402 131.685 126.853 140.495 129.703L169.71 139.152C195.212 147.4 222.571 133.414 230.819 107.913L240.269 78.6971C243.118 69.8875 238.286 60.4361 229.477 57.5867L200.261 48.1371C174.76 39.8889 147.4 53.8753 139.152 79.3766L129.703 108.592Z" fill="#C8E4FF"/>
+                                    <path d="M8.81813 170.39C5.96875 179.199 10.8004 188.651 19.61 191.5L48.8257 200.95C74.327 209.198 101.686 195.212 109.935 169.71L119.384 140.495C122.234 131.685 117.402 122.234 108.592 119.384L79.3766 109.935C53.8753 101.686 26.5159 115.673 18.2677 141.174L8.81813 170.39Z" fill="#C8E4FF"/>
+                                    </g>
+                                    <defs>
+                                    <filter id="filter0_g_59_310" x="0" y="0" width="249.087" height="249.087" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                                    <feTurbulence type="fractalNoise" baseFrequency="0.83333331346511841 0.83333331346511841" numOctaves="3" seed="6660" />
+                                    <feDisplacementMap in="shape" scale="16" xChannelSelector="R" yChannelSelector="G" result="displacedImage" width="100%" height="100%" />
+                                    <feMerge result="effect1_texture_59_310">
+                                    <feMergeNode in="displacedImage"/>
+                                    </feMerge>
+                                    </filter>
+                                    </defs>
+                                    </svg>
+                                    
+                                    
+            </div>
+        <div class="stand">
+            <img class="stand_1" src="images/stand1.webp"  width="1134" height="1860" alt="stand_raku">
+            <img class="stand_2" src="images/stand2.webp"  width="1134" height="1860" alt="stand_akira">
+            <img class="stand_3" src="images/stand3.webp"  width="1134" height="1860" alt="stand_sonoka">
+            <img class="stand_4" src="images/stand4.webp"  width="1134" height="1860" alt="stand_yu">
+        </div>
+    </div>
+</div>
+
+    <div class="shokai">
+
+            <h1><img src="images/logo.webp" width="375" height="130" alt="logo"></h1>
+
+
+        <div class="shokai_honbun">
+        <div class="shokai_1">
+        <div><img class="side1" src="images/side_1.webp" width="87" height="218" alt="side_1"></div>
+        <div class="p1"><p>伝統とモダンが調和するカフェ「しらさわ」の空間をお借りして、紫水家がお届けする特別なコラボカフェ。
+                <br>静謐な空気の中に佇むのは、雨露をまとったアジサイの色彩と、
+                 紫水家が大切に守り続けてきた、凛としてどこか神秘的な調和の美。</p></div>
+        <div class="p2"><p>日常の喧騒を離れ、彼らの息遣いを感じる空間で、その特別なく空気感を心ゆくまでお愉しみください。
+                <br>紫水の庵にて、皆様のご来店を心よりお待ち申し上げております。</p></div>
+        <div><img class="side2" src="images/side_2.webp" width="87" height="218" alt="side_1"></div>
+
+        
+        </div>
+        </div>
+
+
+
+<img class="haikei_shokai" src="images/background_shokai.webp" width="1664" height="3376" alt="haieki_shokai">
+<img class="haikei_shokai_pc" src="images/background_shokai_pc.webp"  alt="haieki_shokai">
+</div>
+
+
+
+    <article class="collab" id="collab">
+        <h2>コラボメニュー</h2>
+
+        <section class="menu Left PC_Left_1">
+            <img class="food" src="images/food1.webp" width="700" height="900" alt="food">
+            <img class="mini" src="images/mini_1.webp" width="1034" height="1440" alt="mini_1">
+            <section class="food_text">
+                    <h3>苑佳の<br>ひとやすみ<br>あんみつ</h3>
+                    <p>黒蜜のやさしい甘さが広がる和風あんみつ。アジサイの練り切りを添え、さっぱりとした味わいの中に感じる上品な甘さで、苑佳のふと見せる優しさを表現しました。</p>
+                </section>
+
+                <div class="menu_ajisai_hako">
+           <img class="menu_ajisai Left_1" src="images/ajisai1.webp" width="968" height="968" alt="ajisai1">
+                </div>
+                <input type="checkbox" id="chara_check">
+                <label for="chara_check" class="about_chara">
+                    <p>キャラクターを知る</p>
+                </label>
+
+                <dl class="chara chara_1">
+                        <label for="chara_check" class="batu">
+                                <svg class="san batu" viewBox="0 0 82 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5.65686 57.9828L57.9828 5.65689" stroke="white" stroke-width="8" stroke-linecap="square"/>
+                                    <path d="M5.81982 5.81982L58.1457 58.1457" stroke="white" stroke-width="8" stroke-linecap="square"/>
+                                    </svg>
+                            </label>
+
+                        <dd><img class="chara_tatie" src="images/stand3.webp" width="1124" height="1860" alt="sonoka"></dd>
+                        <div class="chara_jouhou">
+                        <dt class="chara_yomi">しみず そのか</dt>
+                        <dt class="chara_name">紫水 苑佳</dt>
+                        <dd>警察庁警備局特異対策課所属。基本面倒臭がりで厄介事には手を出さないが、人に対しては世話焼きな部分がある。
+                                伝統ある紫水家の本家とは少し遠い血縁ではあるが、本家の支援に熱心だった父の影響で本家の人間とは面識がある。晶が幼い頃に世話係を務めていた時期が数年間あり、その名残りで子供には優しい。</dd>
+                    </div>
+                    </dl>
+        </section>
+        
+
+        <section class="menu Right PC_Right_1">
+            <img class="food" src="images/food2.webp" width="700" height="900" alt="food">
+            <img class="mini" src="images/mini_2.webp" width="1034" height="1440" alt="mini_2">
+            <section class="food_text">
+                
+                    <h3>晶の<br>縁側ムース</h3>
+                    <p>ふんわり軽やかな口当たりの和風ムース。やさしい甘さと滑らかな食感で、晶の温厚な性格を表現しました。縁側でのんびりと過ごすひとときのような、どこか懐かしく心安らぐ味わいです。</p>
+                </section>
+                <div class="menu_ajisai_hako">
+            <img class="menu_ajisai Right_1" src="images/ajisai2.webp" width="968" height="968" alt="ajisai2">
+            </div>
+            <input type="checkbox" id="chara_check_2">
+                <label for="chara_check_2" class="about_chara">
+                <p>キャラクターを知る</p>
+            </label>
+
+                <dl class="chara chara_2">
+                        <label for="chara_check_2" class="batu">
+                                <svg class="san batu" viewBox="0 0 82 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5.65686 57.9828L57.9828 5.65689" stroke="white" stroke-width="8" stroke-linecap="square"/>
+                                    <path d="M5.81982 5.81982L58.1457 58.1457" stroke="white" stroke-width="8" stroke-linecap="square"/>
+                                    </svg>
+                            </label>
+
+                        <dd><img class="chara_tatie" src="images/stand2.webp" width="1124" height="1860" alt="sonoka"></dd>
+                        <div class="chara_jouhou">
+                        <dt class="chara_yomi">しみず あきら</dt>
+                        <dt class="chara_name">紫水 晶</dt>
+                        <dd>警察庁警備局特異対策課所属。
+                                伝統ある紫水家の三男。跡継ぎを任されていた長男や優秀な次男に比べ発育が遅かったため、本家の中では忌み嫌われることが多かった。その環境に彼自身も違和感を持つことは無いまま外界と触れることも少なく紫水家の環境下で暮らしていたが、昔関わりのあった紫水酪が警察の職を志していると聞いたことをきっかけに同職を目指すようになった。</dd>
+                    </div>
+                    </dl>
+            </section>
+
+            <section class="menu Left PC_Left_2">
+                    <img class="food" src="images/food3.webp" width="700" height="900" alt="food">
+                    <img class="mini" src="images/mini_3.webp" width="1034" height="1440" alt="mini_3">
+                    <section class="food_text">
+                    <h3>酪の<br>強炭酸ソーダ</h3>
+                    <p>酪の鋭さをイメージした強炭酸ソーダ。
+                            弾ける炭酸の刺激とすっきりとした後味が、静かな余韻を残します。</p>
+                </section>
+                <div class="menu_ajisai_hako">
+                    <img class="menu_ajisai" src="images/ajisai3.webp" width="968" height="968" alt="ajisai3">
+                    </div>
+
+                    <input type="checkbox" id="chara_check_3">
+                    <label for="chara_check_3" class="about_chara">
+                    <p>キャラクターを知る</p></label>
+
+                    <dl class="chara chara_3">
+                            <label for="chara_check_3" class="batu">
+                                    <svg class="san batu" viewBox="0 0 82 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5.65686 57.9828L57.9828 5.65689" stroke="white" stroke-width="8" stroke-linecap="square"/>
+                                        <path d="M5.81982 5.81982L58.1457 58.1457" stroke="white" stroke-width="8" stroke-linecap="square"/>
+                                        </svg>
+                                </label>
+    
+                            <dd><img class="chara_tatie" src="images/stand1.webp" width="1124" height="1860" alt="sonoka"></dd>
+                            <div class="chara_jouhou">
+                            <dt class="chara_yomi">しみず らく</dt>
+                            <dt class="chara_name">紫水 酪</dt>
+                            <dd>警察庁警備局特異対策課所属。 体術を得意としている。 怒りっぽい部分があることと図体や声が大きいことから周りから忌避されがちだが、基本的には真面目な性格である。多分。本当に？ごめん嘘かも
+
+
+                                    伝統ある紫水家の血は継いでいるものの本家からはあまりいい顔はされていない。ただ、本家のとある人物とは未だ関わりがあるとかないとか。 最近は仕事で相方となっている先輩に手を焼かれている。 </dd>
+                        </div>
+                        </dl>
+                    </section>
+
+                    <section class="menu Right PC_Right_2" >
+                            <img class="food" src="images/food4.webp" width="700" height="900" alt="food">
+                            <img class="mini" src="images/mini_4.webp" width="1034" height="1440" alt="mini_4">
+                            <section class="food_text">
+                                    <h3>ゆうの<br>贅沢パフェ</h3>
+                                    <p>彩り豊かな甘味を重ねた華やかなパフェ。<br>
+                                        ひと口ごとに異なる味わいが広がり、ゆうの温厚さと好奇心の詰まった一品をお届けします。</p>
+                                </section>
+                                <div class="menu_ajisai_hako">
+                            <img class="menu_ajisai" src="images/ajisai4.webp" width="968" height="968" alt="ajisai4">
+                            </div>
+
+<input type="checkbox" id="chara_check_4">
+                <label for="chara_check_4" class="about_chara">
+                                <p>キャラクターを知る</p></label>
+
+                                <dl class="chara chara_4">
+                                        <label for="chara_check_4" class="batu">
+                                                <svg class="san batu" viewBox="0 0 82 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M5.65686 57.9828L57.9828 5.65689" stroke="white" stroke-width="8" stroke-linecap="square"/>
+                                                    <path d="M5.81982 5.81982L58.1457 58.1457" stroke="white" stroke-width="8" stroke-linecap="square"/>
+                                                    </svg>
+                                            </label>
+                
+                                        <dd><img class="chara_tatie" src="images/stand4.webp" width="1124" height="1860" alt="sonoka"></dd>
+                                        <div class="chara_jouhou">
+                                        <dt class="chara_yomi">しみず ゆう</dt>
+                                        <dt class="chara_name">紫水 ゆう</dt>
+                                        <dd>警察庁警備局特異対策課所持。 体術を得意とし、特に薙刀の扱いに長けている。 妹がおり世話焼きで温厚だが、時に過保護になりすぎてしまうことも。人当たりは良い。 伝統ある紫水家の血を継いでいるもののとある出来事をきっかけに本家からは出入り禁止となっている。 酪とはいとこの関係にあたり、度々連絡を取ろうにも全て無視されている。 最近は仕事で相方となっている先輩と仲が良くプライベートで遊びに誘うこともあるとか。</dd>
+                                    </div>
+                                    </dl>
+                            </section>
+    </article>
+
+
+
+
+    <section class="normal" id="normal">
+        <section class="normal_ko">
+        <p class="middle">\合わせておすすめ/</p>
+        <h2>通常メニュー</h2>
+
+        <div class="normal_menu">
+        <div class="n_food1"><img src="images/n_food1.webp" width="505" height="427" alt="n_food1"></div>
+        <div class="n_food2"><img src="images/n_food2.webp" width="505" height="427" alt="n_food2"></div>
+        <div class="n_food3"><img src="images/n_food3.webp" width="505" height="427" alt="n_food3"></div>
+        <div class="n_food4"><img src="images/n_food4.webp" width="505" height="427" alt="n_food4"></div>
+        <div class="n_food5"><img src="images/n_food5.webp" width="505" height="427" alt="n_food5"></div>
+        <div class="n_food6"><img src="images/n_food6.webp" width="505" height="427" alt="n_food6"></div>
+        </div>
+   
+
+        <a href="nai_saito.html"><img width="538" height="185" src="images/button_normal.webp" alt="button"><span>詳しく見る</span></a>
+        
+        <p class="small">本店のホームページに飛びます</p>
+    </section>
+    </section>
+
+
+
+    <article class="goods" id="goods">
+    <h2>グッズ情報</h2>
+
+
+    <section class="acrylic">
+        <h3>アクリルスタンド</h3>
+        <ul>
+                <li><img src="images/stand1.webp"  width="1134" height="1860" alt="stand_raku"></li>
+                <li> <img src="images/stand2.webp"  width="1134" height="1860" alt="stand_akira"></li>
+                <li><img src="images/stand3.webp"  width="1134" height="1860" alt="stand_sonoka"></li>
+                <li><img src="images/stand4.webp"  width="1134" height="1860" alt="stand_yu"></li>
+        </ul>
+        <p class="small">18cm×10cm  各1100円</p>
+    </section>
+
+    <article class="goods_hako">
+    <section class="umbrella">
+    <p>\雨の日に/</p>
+    <h3>アンブレラマーカー</h3>
+        <ul>
+                <li><img src="images/umbrella1.webp"  width="979" height="1962" alt="umbrella_raku"></li>
+                <li> <img src="images/umbrella2.webp"  width="979" height="1962" alt="umbrella_akira"></li>
+                <li><img src="images/umbrella3.webp"  width="979" height="1962" alt="umbrella_sonoka"></li>
+                <li><img src="images/umbrella4.webp"  width="979" height="1962" alt="umbrella_yu"></li>
+        </ul>
+        <p class="small">直径54mm  各400円</p>
+    </section>
+
+    
+    <section class="can">
+    <h3>選べる缶バッジ</h3>
+    <ul>
+            <li><img src="images/can1.webp"  width="600" height="600" alt="can_raku"></li>
+            <li><img src="images/can2.webp"  width="600" height="600" alt="can_akira"></li>
+            <li><img src="images/can3.webp"  width="600" height="600" alt="can_sonoka"></li>
+            <li><img src="images/can4.webp"  width="600" height="600" alt="can_yu"></li>
+    </ul>
+    <p class="small">直径54mm  各400円</p>
+    
+
+    </section>
+    </article>
+
+
+    </article>
+
+    <section class="access" id="access">
+        <h2>アクセス</h2>
+        <div class="access_hako">
+        <img src="images/access.webp" width="262" height="145" alt="">
+
+        <p>峰岸ネジコビル  6階<br><br>
+
+                〒222-2222<br>
+                峰岸県峰岸市峰岸区2-25<br><br>
+                
+                JR峰岸駅から徒歩5分</p>
+            </div>
+    </section>
+
+   
+
+    </main>
+
+
+    <footer>
+            <!-- <img src="images/haikei_footer.webp" alt="footer_haikei"> -->
+            <div class="footer_ko">
+                <div class="footer_pc">
+                <h1><img src="images/logo.webp" width="375" height="130" alt="logo"></h1>
+                <div class="icon">
+                        <a href="nai_saito.html"><img src="images/logo_X.png"alt="x-icon"></a>
+                            <a href="nai_saito.html"> <img src="images/logo_insta.svg"alt="x-icon"> </a>
+                </div>
+            </div>
+                <p>このページはフィクションです</p>
+            </div>
+            </footer>
+
+
+</body>
+
+
+<!-- 
+　　　　（⌒)
+　　∧__∧  （~)
+　（｡･⩊･｡)(  )
+　{￣￣￣￣}
+　{~￣お_＿}  関口先生、課題チェックありがとうございます🎶
+　{~￣茶_＿}
+　{＿＿＿＿}
+　 ┗━━┛
+
+
+ -->
+
+
+</html>
